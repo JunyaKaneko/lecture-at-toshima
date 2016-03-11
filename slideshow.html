@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>スライドショーのテスト</title>
+    <style>
+        #slides {
+            display:none;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slidesjs/3.0/jquery.slides.min.js"></script>
+    <script>
+        $(function(){
+            $("#slides").slidesjs({
+                width: 640,
+                height: 480
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div id="slides">
+    <img src="http://url">
+    <img src="http://url">
+    <img src="http://url">
+    <img src="http://url">
+</div>
+
+</body>
+</html>
